@@ -1,8 +1,24 @@
 aid: vulcanforms
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vulcanforms.png
 name: VulcanForms
-description: 'VulcanForms is a company surfaced as a portfolio company of d1-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: manufacturing. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'VulcanForms operates integrated digital metal manufacturing factories in the United States,
+  combining in-house designed industrial-scale laser powder bed fusion (LPBF) additive machines, precision
+  machining, automation, inspection, and proprietary AI-enabled software into a single end-to-end production
+  workflow. The company produces mission-critical metal components at production scale for the aerospace,
+  defense, medical, compute, consumer, and industrial sectors, compressing the supply chain into one secure,
+  vertically integrated system. Headquartered in Devens, Massachusetts, VulcanForms is backed by Eclipse,
+  1789 Capital, D1 Capital and others. This profile currently exposes no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/vulcanforms/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Manufacturing
+- Additive Manufacturing
+- Metal 3D Printing
+- Aerospace
+- Defense
+- Digital Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +45,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://vulcanforms.com
+  url: https://www.vulcanforms.com
+- type: About
+  url: https://www.vulcanforms.com/about-us/
+- type: Blog
+  url: https://www.vulcanforms.com/press/
+- type: TermsOfService
+  url: https://www.vulcanforms.com/website-terms-conditions/
+- type: PrivacyPolicy
+  url: https://www.vulcanforms.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
